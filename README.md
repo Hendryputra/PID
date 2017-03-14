@@ -18,19 +18,17 @@ antiwindup is implemented as u(n) limiter
 there is also exponential error filter option
 
 
-
-
 This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
+You should have received a copy of the GNU General Public License
 
 
 
@@ -39,12 +37,15 @@ Author : Kenshin - Michal Chovanec, 5 February 2015
 
 
 
-/*use fixed point math, where one is represented as PID_FRACTION value*/
+use fixed point math, where one is represented as PID_FRACTION value
+
 #define PID_FIXED_POINT			1
 
-/*use floating point math*/
+use floating point math
+
 #define PID_FLOATING_POINT		1
 
-/*enable error filtering*/
+enable error filtering
+
 #define PID_ERROR_FILTER_ENABLE	1
 
